@@ -1,0 +1,361 @@
+
+@font-face {
+  font-family: 'MyFont';
+  font-style: normal;
+  letter-spacing: 2px;
+  src: url("../src/fonts/spacerangercond.ttf") 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+}
+
+.home-title {
+  color: white;
+  font-size: 30px;
+  .testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #F25A05, black);
+    color: white;
+    font-family: 'MyFont';
+  }
+
+  .testimonials-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .testimonials-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .testimonial-card {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .testimonial-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+
+  .testimonial-author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F20705;
+  }
+  margin-top: 0px;
+  height: 20vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'MyFont';
+}
+
+.home-logo{
+  height: 100%;
+  aspect-ratio: 1/1;
+  margin: auto;
+}
+
+.home-container {
+  height: 90vh;
+  width: 100vw;
+  background: linear-gradient(to top, #F25A05, black);
+}
+
+.containerVideo {
+  background-color: #61dafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 80vw;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.home-main {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.home-text {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 0px;
+  height: 30vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'MyFont';
+  font-size: 20px;
+}
+
+.home-button {
+  background-color: #F20705;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'MyFont';
+  font-size: 30px;
+}
+
+.depoimentos-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.depoimentos-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.depoimento-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.imagem-antes,
+.imagem-depois {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.sobre-mim-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+}
+
+.sobre-mim-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.sobre-mim-container p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.fotos-transformacao {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.foto {
+  text-align: center;
+}
+
+.foto h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.foto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.planos-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px auto;
+  width: 90vw;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #F20705;
+  border-radius: 12px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  font-family: 'MyFont';
+  font-size: 24px;
+  color: #F20705;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-family: 'MyFont';
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.features li {
+  margin-bottom: 8px;
+}
+
+.botão {
+  background-color: #F20705;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'MyFont';
+  transition: background-color 0.3s ease;
+}
+
+.botão:hover {
+  background-color: #d10504;
+}
+
+.base-planos-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(to top, #d10504, #F25A05);
+  border: 1px solid #d10504;
+  border-radius: 6px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.base-planos-container h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.base-planos-container h3 {
+  color: #f2f2f2   ;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.base-planos-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.base-planos-container ul li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.base-planos-container p {
+  font-size: 14px;
+  color: #f2f2f2   ;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: justify;
+}
