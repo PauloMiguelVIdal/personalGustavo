@@ -28,6 +28,73 @@ code {
   width: 100vw;
 }
 
+/* PlanosConsultoria.css */
+.container-planos {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container-planos h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #111;
+  text-align: center;
+}
+
+.plano-box {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.plano-box:hover {
+  transform: scale(1.02);
+}
+
+.plano-box h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #007BFF;
+}
+
+.plano-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plano-box li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.plano-box li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 480px) {
+  .container-planos {
+    padding: 16px;
+  }
+
+  .plano-box h2 {
+    font-size: 18px;
+  }
+
+  .plano-box li {
+    font-size: 15px;
+  }
+}
+
+
 .home-title {
   color: white;
   font-size: 30px;

@@ -6,6 +6,7 @@ import PlanosIndividuais from './components/PlanosIndividuais';
 import BasePlanos from './components/BasePlanos';
 import Depoimentos from './components/Depoimentos';
 import SobreMim from './components/SobreMim';
+import PlanosConsultoria from './components/PlanosConsultoria';
 // import About from './components/About';
 // import Contact from './components/Contact';
 // import Services from './components/Services';
@@ -18,6 +19,7 @@ function App() {
       <PlanosIndividuais />
       <Depoimentos/>
 <SobreMim/>
+<PlanosConsultoria/>
     </div>
   );
 }
