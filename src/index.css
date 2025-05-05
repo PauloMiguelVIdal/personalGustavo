@@ -6,6 +6,30 @@
   src: url("../src/fonts/spacerangercond.ttf") 
 }
 
+
+@font-face {
+  font-family: 'MyFont2';
+  font-style: normal;
+  letter-spacing:2px;
+  src: url("../src/fonts/Montserrat-Bold.otf") 
+}
+
+@font-face {
+  font-family: 'MyFont3';
+  font-style: normal;
+  letter-spacing:2px;
+  src: url("../src/fonts/Inter-Regular.otf") 
+}
+@font-face {
+  font-family: 'MyFont3';
+  font-style: normal;
+  letter-spacing:2px;
+  src: url("../src/fonts/Inter-Light.otf") 
+}
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +37,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
 }
 
 code {
@@ -20,12 +46,12 @@ code {
     monospace;
 }
 .header {
-
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  width: 100vw;
+  width: 80vw;
+  margin: auto;
 }
 
 /* PlanosConsultoria.css */
@@ -98,6 +124,14 @@ code {
 .home-title {
   color: white;
   font-size: 30px;
+  font-family: 'MyFont';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
   .testimonials-container {
     display: flex;
     flex-direction: column;
@@ -151,15 +185,8 @@ code {
     font-weight: bold;
     color: #F20705;
   }
-  margin-top: 0px;
-  height: 20vh;
-  width: 80vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: 'MyFont';
-}
+
+
 
 .home-logo{
   height: 100%;
@@ -204,7 +231,7 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'MyFont';
+  font-family: 'MyFont2';
   font-size: 20px;
 }
 
@@ -226,6 +253,8 @@ code {
   font-family: 'MyFont';
   font-size: 30px;
 }
+
+
 
 .depoimentos-container {
   width: 80%;
@@ -317,10 +346,10 @@ code {
 .planos-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
   margin: 20px auto;
-  width: 90vw;
+  width: 100vw;
   flex-wrap: wrap;
 }
 
@@ -425,4 +454,170 @@ code {
   line-height: 1.6;
   margin-bottom: 10px;
   text-align: justify;
+}
+
+.package-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.containerTitlePackage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* sombra para destacar */
+}
+
+.titlePackage{
+  font-family: 'MyFont2';
+  font-size: 30px;
+}
+.descTitlePackage{
+  font-family: 'MyFont3';
+  font-size: 20px;
+}
+
+.desc{
+  font-family: 'MyFont4';
+  font-size: 20px;
+}
+
+.containerPricePackage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.priceText{
+  font-family: 'MyFont';
+  font-size: 40px;
+}
+
+.descountText{
+  font-family: 'MyFont';
+  font-size: 40px;
+}
+
+.bottonPackage{
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 30px;
+  font-family: 'MyFont';
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.bottonPackage:hover {
+  background-color: #d10504;
+}
+.package-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.containerOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #d10504;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 80%;
+}
+.containerIcon {
+  aspect-ratio: 1/1;
+  width: 65px;
+  height: 65px;
+  margin-right: 20px;
+  
+  background-color: #F23005;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.textIcon{
+  font-family: 'MyFont3';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.titleText{
+  font-family: 'Myfont';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+  
+}
+
+.containerPlanosGerais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F25A05;
+}
+
+.spaceContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 80%;
+  height: 20px;
+  border-radius: 30px;
+  background-color: #F23005;
+}
+
+.containerTextCentral{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F23005;
+  border-radius: 30px;
+  margin-top: 20px;
+  position: relative;
+  top: 60px;
+}
+
+.containerSpaceAdjust{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.descTitlePrice{
+  font-family: 'MyFont2';
+  color: black;
+  font-size: 40px;
+  text-decoration: line-through;
+  text-decoration-color: white;
+
 }
