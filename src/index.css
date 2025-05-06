@@ -42,7 +42,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-
+ background-color: #111;
 }
 
 code {
@@ -57,7 +57,6 @@ code {
   width: 80vw;
   margin: auto;
   max-width: 400px;
-
 }
 
 .fonte2{
@@ -239,7 +238,7 @@ code {
 
 .home-text {
   color: white;
-
+margin: 20px auto 20px;
   text-align: center;
   margin-top: 0px;
   height: 30vh;

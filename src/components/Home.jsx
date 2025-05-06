@@ -10,7 +10,8 @@ const Home = () => {
                 <div className="home-title">HONGARO</div>
             </header>
             <main className="home-main">
-                    <iframe
+                    <iframe className='video'
+                        style={{ width: '100%', height: '100%', maxWidth: '800px', maxHeight: '450px', margin: '20px auto 20px' }}
                         src="https://www.youtube.com/embed/FkFE2H2loPg"
                         title="YouTube video player"
                         frameBorder="0"
