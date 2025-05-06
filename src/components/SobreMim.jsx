@@ -11,15 +11,17 @@ const SobreMim = () => {
             <div className='containerSobreMim'>
 
                 <img src={antes4} alt="Antes" className="imagem-antes" style={{ marginBottom: "10px", width: "100%" }} />
-                <p className='fonte3'>
+                <p className='fonte3 parag'>
                     "Olá! Sou o Gustavo. Já enfrentei o sobrepeso, mas com disciplina e mudança de hábitos, transformei meu corpo — e minha vida."
                 </p>
                 <img src={depois4} alt="Antes" className="imagem-antes" style={{ marginBottom: "10px", width: "100%" }} />
-                <p className='fonte3'>
+                <p className='fonte3 parag'>
                     Hoje, como personal trainer, uso minha experiência pessoal para ajudar outras pessoas
                     a alcançarem seus objetivos e a viverem de forma mais saudável.
                 </p>
+                <a className='link' href="#planos" style={{ textDecoration: 'none', color: 'white' }}>
                 <button className='buttonCTA'>Comece sua jornada comigo</button>
+                    </a>
             </div>
         </div>
     );

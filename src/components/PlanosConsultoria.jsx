@@ -9,6 +9,8 @@ const PlanosConsultoria = () => {
             preco: 197,
             precoReal: 197,
             descount: 0,
+            // href="https://api.whatsapp.com/send?phone=5517996296401&text=Olá!%20Estou%20interessado%20em%20saber%20mais%20sobre%20os%20planos%20de%20treino." target="_blank" rel="noopener noreferrer"
+            link:"https://api.whatsapp.com/send?phone=5517996296401&text=Olá!%20Estou%20interessado%20em%20saber%20mais%20sobre%20os%20planos%20de%20treino.",
             cores: {
                 bgCor1: "F23005",
                 bgCor2: "F23005",
@@ -21,6 +23,7 @@ const PlanosConsultoria = () => {
                 bgBotton2: "000000",
                 colorTextBotton: "FFFFFF",
             }
+            
 
         },
         {
@@ -30,6 +33,7 @@ const PlanosConsultoria = () => {
             preco: 397,
             precoReal: 397,
             descount: 0,
+            link:"https://api.whatsapp.com/send?phone=5517996296401&text=Olá!%20Estou%20interessado%20em%20saber%20mais%20sobre%20os%20planos%20de%20treino.",
             cores: {
                 bgCor1: "F23005",
                 bgCor2: "8C0403",
@@ -51,6 +55,7 @@ const PlanosConsultoria = () => {
             preco: 297,
             precoReal: 590,
             descount: 15,
+            link:"https://api.whatsapp.com/send?phone=5517996296401&text=Olá!%20Estou%20interessado%20em%20saber%20mais%20sobre%20os%20planos%20de%20treino.",
             cores: {
                 bgCor1: "F23005",
                 bgCor2: "F20705",
@@ -72,6 +77,7 @@ const PlanosConsultoria = () => {
             preco: 470,
             precoReal: 1182,
             descount: 20,
+            link:"https://api.whatsapp.com/send?phone=5517996296401&text=Olá!%20Estou%20interessado%20em%20saber%20mais%20sobre%20os%20planos%20de%20treino.",
             cores: {
                 bgCor1: "F25A05",
                 bgCor2: "F20705",
@@ -93,6 +99,7 @@ const PlanosConsultoria = () => {
             preco: 590,
             precoReal: 1182,
             descount: 50,
+            link:"https://api.whatsapp.com/send?phone=5517996296401&text=Olá!%20Estou%20interessado%20em%20saber%20mais%20sobre%20os%20planos%20de%20treino.",
             cores: {
                 bgCor1: "F29F05",
                 bgCor2: "F2C36B",
@@ -114,6 +121,7 @@ const PlanosConsultoria = () => {
             preco: 997,
             precoReal: 2364,
             descount: 57,
+            link:"https://api.whatsapp.com/send?phone=5517996296401&text=Olá!%20Estou%20interessado%20em%20saber%20mais%20sobre%20os%20planos%20de%20treino.",
             cores: {
                 bgCor1: "F29F05",
                 bgCor2: "8C3403",
@@ -131,7 +139,7 @@ const PlanosConsultoria = () => {
     ];
 
     return (
-        <div className="planos-container">
+        <div id='planos' style={{ scrollMarginTop: "100px" }} className="planos-container">
             <div className="containerSpaceAdjust"></div>
             {planos.map((plano, index) => (
                 <div className="package-card" key={index} style={{ background: `linear-gradient(135deg,#${plano.cores.bgCor1}, #${plano.cores.bgCor2})` }}>
@@ -158,15 +166,17 @@ const PlanosConsultoria = () => {
                             R$ {plano.preco},00
                         </p>
                     </div>
-                    <button
-                        className="bottonPackage"
-                        style={{
-                            background: `linear-gradient(135deg,#${plano.cores.bgBotton1}, #${plano.cores.bgBotton2})`,
-                            color: `#${plano.cores.colorTextBotton}`
-                        }}
-                    >
-                        Comprar
-                    </button>
+                    <a href={plano.link} target="_blank" rel="noopener noreferrer">
+                        <button
+                            className="bottonPackage"
+                            style={{
+                                background: `linear-gradient(135deg,#${plano.cores.bgBotton1}, #${plano.cores.bgBotton2})`,
+                                color: `#${plano.cores.colorTextBotton}`
+                            }}
+                        >
+                            Comprar
+                        </button>
+                    </a>
                 </div>
             ))}
         </div>

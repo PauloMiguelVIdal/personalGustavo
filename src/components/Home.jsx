@@ -24,9 +24,14 @@ const Home = () => {
                         Transforme Seu Corpo com 
                         Estratégia e Consistência
                     </h1>
+                    <a className='link' 
+                    href="#planos" style={{ textDecoration: 'none', color: 'white' }}>
+                    
+                    
                     <button className="home-button" style={{ padding: '0.5rem 1rem', fontSize: 'clamp(0.8rem, 2vw, 1rem)' }}>
                         Comece sua jornada agora mesmo!
                     </button>
+                    </a>
                 </div>
             </main>
         </div>

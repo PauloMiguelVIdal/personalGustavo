@@ -1,22 +1,11 @@
 import React from "react";
-import Slider from "react-slick";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import img1 from "../images/antesDepois1.jpg";
 import img2 from "../images/antesDepois2.jpg";
 import img3 from "../images/antesDepois3.jpg";
 const Depoimentos = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-    };
-
-    const getImageUrl = (nomeArquivo) => `../images/${nomeArquivo}.jpg`;
 
 
     const depoimentos = [
