@@ -611,6 +611,7 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 30px;
   background-color: #F20705;

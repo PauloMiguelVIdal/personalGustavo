@@ -6,7 +6,7 @@ const SobreMim = () => {
     return (
         <div className="sobre-mim-container">
             <div className='container2'>
-                <h1 className="fonte2">EU ESTIVE NO SEU LUGAR!!!</h1>
+                <h1 className="fonte4">EU ESTIVE NO SEU LUGAR!!!</h1>
             </div>
             <div className='containerSobreMim'>
 
