@@ -28,6 +28,7 @@ const Depoimentos = () => {
     return (
         <div className="depoimentos-container">
             <h2 className="fonte2">Veja o antes e depois dos meus alunos</h2>
+            <div className="depoimentos-container2">
                 {depoimentos.map((depoimento) => (
                     <div key={depoimento.id} className="depoimento-item">
                         <div className="imagens" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -36,6 +37,7 @@ const Depoimentos = () => {
                         {depoimento.texto && <p className="texto">{depoimento.texto}</p>}
                     </div>
                 ))}
+                </div>
         </div>
     );
 };
