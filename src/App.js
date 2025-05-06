@@ -9,6 +9,7 @@ import Depoimentos2 from './components/Depoimentos2';
 import SobreMim from './components/SobreMim';
 import PlanosConsultoria from './components/PlanosConsultoria';
 import PlanosGerais from './components/PlanosGerais';
+import Duvidas from './components/Duvidas';
 // import About from './components/About';
 // import Contact from './components/Contact';
 // import Services from './components/Services';
@@ -24,6 +25,7 @@ function App() {
       <SobreMim />
       <PlanosGerais />
       <PlanosConsultoria />
+      <Duvidas/>
     </div>
   );
 }

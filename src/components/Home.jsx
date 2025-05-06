@@ -10,9 +10,7 @@ const Home = () => {
                 <div className="home-title">HONGARO</div>
             </header>
             <main className="home-main">
-            
                     <iframe
-                        className="video"
                         src="https://www.youtube.com/embed/FkFE2H2loPg"
                         title="YouTube video player"
                         frameBorder="0"
@@ -22,12 +20,12 @@ const Home = () => {
        
 
                 <div className="home-text">
-                    <h1 style={{ fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', textAlign: 'center', margin: '1rem 0' }}>
-                        Transforme Seu Corpo com <br />
+                    <h1 style={{ color:"white", fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', textAlign: 'center', margin: '1rem 0' }}>
+                        Transforme Seu Corpo com 
                         Estratégia e Consistência
                     </h1>
                     <button className="home-button" style={{ padding: '0.5rem 1rem', fontSize: 'clamp(0.8rem, 2vw, 1rem)' }}>
-                        Comece agora
+                        Comece sua jornada agora mesmo!
                     </button>
                 </div>
             </main>

@@ -54,6 +54,17 @@ code {
   margin: auto;
 }
 
+.fonte2{
+  font-family: 'MyFont2';
+  font-size: 30px;
+  color: #F25A05;
+}
+
+.fonte3{
+  font-family: 'MyFont3';
+  font-size: 30px;
+  color: white;
+}
 /* PlanosConsultoria.css */
 .container-planos {
   padding: 20px;
@@ -222,7 +233,7 @@ code {
 
 .home-text {
   color: white;
-  font-size: 10px;
+
   text-align: center;
   margin-top: 0px;
   height: 30vh;
@@ -232,7 +243,7 @@ code {
   align-items: center;
   flex-direction: column;
   font-family: 'MyFont2';
-  font-size: 20px;
+
 }
 
 .home-button {
@@ -246,12 +257,13 @@ code {
   text-align: center;
   text-decoration: none;
   height: 50px;
-  font-size: 16px;
+  font-size: 46px;
   margin: auto;
   cursor: pointer;
   border-radius: 12px;
   font-family: 'MyFont';
-  font-size: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+
 }
 
 
@@ -266,7 +278,7 @@ code {
 .depoimentos-container h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+
 }
 
 .depoimento-item {
@@ -284,8 +296,8 @@ code {
   margin-bottom: 15px;
 }
 
-.imagem-antes,
-.imagem-depois {
+.imagem-antes {
+  max-width: 400px;
   width: 200px;
   height: auto;
   border-radius: 10px;
@@ -300,20 +312,36 @@ code {
 }
 
 .sobre-mim-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100vw;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
   text-align: center;
+  background-color: #F25A05;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
 }
 
 .sobre-mim-container h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #444;
+  color: white;
 }
+
+.containerSobreMim{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #F25A05;
+  
+}
+
 
 .sobre-mim-container p {
   margin-bottom: 20px;
@@ -578,6 +606,17 @@ code {
   background-color: #F25A05;
 }
 
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: #F20705;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
+}
+
 .spaceContainer{
   display: flex;
   justify-content: center;
@@ -588,6 +627,26 @@ code {
   height: 20px;
   border-radius: 30px;
   background-color: #F23005;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
+}
+
+.buttonCTA{
+  background-color: #00ff0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'MyFont';
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
 }
 
 .containerTextCentral{
@@ -621,3 +680,106 @@ code {
   text-decoration-color: white;
 
 }
+
+/* Duvidas.css */
+.accordion-container {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #F23005;
+  font-weight: bold;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: #F23005;
+  color: #ffffff;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: 2px solid #8C0403;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  font-family: 'MyFont2';
+}
+
+.accordion-title:hover {
+  background: #F20705;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding: 15px 20px;
+  background: #8C0403;
+  color: #ffffff;
+  border: 2px solid #F23005;
+  border-top: none;
+  margin-bottom: 10px;
+  border-radius: 0 0 8px 8px;
+  animation: fadeIn 0.3s ease-in-out;
+  font-family: 'MyFont2';
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #F23005;
+  font-weight: bold;
+}
+
+.accordion-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.duvidas-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: #F20705;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;  
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fonte4{
+  font-family: 'MyFont2';
+  font-size: 20px;
+  color: rgb(233, 222, 222);
+  text-align: center;
+}
+
