@@ -6,8 +6,6 @@ Este projeto é um site desenvolvido para um personal trainer, com foco em apres
 
 ## 📸 Visão Geral
 
-![Capa do Site](./src/img/img%20sites/gustavo%20capa.png)
-
 ---
 
 ## 🚀 Funcionalidades
