@@ -15,12 +15,11 @@ const SobreMim = () => {
                     </div>
                     <div className='containerTextoSobreMim'>
                         <p className='fonte3 parag'>
-                        "Olá! Me chamo Gustavo. Já enfrentei o sobrepeso e sei como é difícil lidar com a autoestima baixa, o cansaço constante e a frustração de tentar de tudo e não ver resultados. Cada dia era uma luta contra a desmotivação, os excessos e a falta de energia. Me sentia preso em um ciclo que parecia não ter fim. "
-
-</p>
+                            "Olá! Me chamo Gustavo. Já enfrentei o sobrepeso e sei como é difícil lidar com a autoestima baixa, o cansaço constante e a frustração de tentar de tudo e não ver resultados. Cada dia era uma luta contra a desmotivação, os excessos e a falta de energia. Me sentia preso em um ciclo que parecia não ter fim. "
+                        </p>
                         <p className='fonte3 parag'>
-                        "Mas foi nesse momento que percebi que precisava mudar. E com disciplina e novos hábitos, tudo começou a se transformar.
-</p>
+                            "Mas foi nesse momento que percebi que precisava mudar. E com disciplina e novos hábitos, tudo começou a se transformar.
+                        </p>
                     </div>
                 </div>
                 <div className='containerInternoSobreMim'>

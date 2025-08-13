@@ -10,14 +10,16 @@ const Home = () => {
                 <div className="home-title">HONGARO</div>
             </header>
             <main className="home-main">
-                    <iframe className='video'
-                        style={{ width: '100%', height: '100%', maxWidth: '800px', maxHeight: '450px', margin: '20px auto 20px' }}
-                        src="https://www.youtube.com/embed/FkFE2H2loPg"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
+            <iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/ymwN3oI-GLk?rel=0&modestbranding=1&controls=0&showinfo=0&iv_load_policy=3"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
        
 
                 <div className="home-text">
