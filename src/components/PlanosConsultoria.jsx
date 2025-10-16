@@ -9,7 +9,7 @@ const PlanosConsultoria = () => {
           preco: 197,
           precoReal: 197,
           descount: 0,
-          link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
+          link: "https://api.whatsapp.com/send?phone=5517996515936&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
           cores: {
             bgCor1: "F23005",
             bgCor2: "F23005",
@@ -30,7 +30,7 @@ const PlanosConsultoria = () => {
           preco: 397,
           precoReal: 397,
           descount: 0,
-          link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20dieta%20e%20treino,%20mensal%20por%20R$%20397,00.",
+          link: "https://api.whatsapp.com/send?phone=5517996515936&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20dieta%20e%20treino,%20mensal%20por%20R$%20397,00.",
           cores: {
             bgCor1: "F23005",
             bgCor2: "8C0403",
@@ -52,7 +52,7 @@ const PlanosConsultoria = () => {
           preco: 297,
           precoReal: 590,
           descount: 15,
-          link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20trimestral%20com%2015%%20de%20desconto%20por%20R$%20297,00.",
+          link: "https://api.whatsapp.com/send?phone=5517996515936&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20trimestral%20com%2015%%20de%20desconto%20por%20R$%20297,00.",
           cores: {
             bgCor1: "F23005",
             bgCor2: "F20705",
@@ -73,7 +73,7 @@ const PlanosConsultoria = () => {
           preco: 470,
           precoReal: 1182,
           descount: 20,
-          link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20dieta%20e%20treino,%20trimestral%20com%2020%%20de%20desconto%20por%20R$%20470,00.",
+          link: "https://api.whatsapp.com/send?phone=5517996515936&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20dieta%20e%20treino,%20trimestral%20com%2020%%20de%20desconto%20por%20R$%20470,00.",
           cores: {
             bgCor1: "F25A05",
             bgCor2: "F20705",
@@ -94,7 +94,7 @@ const PlanosConsultoria = () => {
           preco: 590,
           precoReal: 1182,
           descount: 50,
-          link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20semestral%20com%2050%%20de%20desconto%20por%20R$%20590,00.",
+          link: "https://api.whatsapp.com/send?phone=5517996515936&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20semestral%20com%2050%%20de%20desconto%20por%20R$%20590,00.",
           cores: {
             bgCor1: "F29F05",
             bgCor2: "F2C36B",
@@ -115,7 +115,7 @@ const PlanosConsultoria = () => {
           preco: 997,
           precoReal: 2364,
           descount: 57,
-          link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20dieta%20e%20treino,%20semestral%20com%2057%%20de%20desconto%20por%20R$%20997,00.",
+          link: "https://api.whatsapp.com/send?phone=5517996515936&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20dieta%20e%20treino,%20semestral%20com%2057%%20de%20desconto%20por%20R$%20997,00.",
           cores: {
             bgCor1: "F29F05",
             bgCor2: "8C3403",
