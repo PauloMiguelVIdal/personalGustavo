@@ -16,16 +16,13 @@ import Duvidas from './components/Duvidas';
 // import Testimonials from './components/Testimonials';
 function App() {
   return (
-    <div className="App">
+    <div className="bg-black min-h-screen">
       <Home />
-      {/* <BasePlanos /> */}
-      {/* <PlanosIndividuais /> */}
-      {/* <Depoimentos /> */}
-      <Depoimentos2 />
       <SobreMim />
       <PlanosGerais />
       <PlanosConsultoria />
-      <Duvidas/>
+      <Depoimentos />
+      <Duvidas />
     </div>
   );
 }

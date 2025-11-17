@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 
 const Duvidas = () => {
-    const duvidasFrequentes = [
+  const [ativo, setAtivo] = useState(null);
+
+    const duvidas = [
         {
             titulo: 'Como funciona a consultoria online?',
             resposta: 'Após uma avaliação inicial, eu monto um plano de treino totalmente personalizado para seu objetivo, rotina e equipamentos disponíveis. A cada semana acompanhamos sua evolução juntos.'
@@ -40,42 +42,45 @@ const Duvidas = () => {
         }
     ];
 
+  return (
+    <div className="bg-gradient-to-b from-black via-gray-900 to-black py-20 px-4">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600 mb-8">
+          Tem dúvidas? Aqui vão algumas respostas!
+        </h1>
+        
+        <p className="text-center text-gray-300 text-lg mb-12 leading-relaxed">
+          Antes de decidir começar sua transformação comigo, é super normal ter algumas perguntas.
+          Quero que você se sinta seguro, bem informado e confiante com cada passo que vamos dar juntos.
+        </p>
 
-    const [ativo, setAtivo] = useState(null);
-
-    const toggleAcordeon = (index) => {
-        setAtivo(ativo === index ? null : index);
-    };
-
-    return (
-        <div className='duvidas-container'>
-            <p className='fonte4'>
-                <h1 style={{ color: "white" }} className='fonte2'>Tem dúvidas? Aqui vão algumas respostas!</h1>
-                Antes de decidir começar sua transformação comigo, é super normal ter algumas perguntas.
-                Quero que você se sinta seguro, bem informado e confiante com cada passo que vamos dar juntos.
-            </p>
-            <div className='accordion-container'>
-                {duvidasFrequentes.map((item, index) => (
-                    <div key={index}>
-                        <div
-                            className='accordion-title'
-                            onClick={() => toggleAcordeon(index)}
-                        >
-                            <span>{item.titulo}</span>
-                            <span className={`arrow ${ativo === index ? 'rotate' : ''}`}>
-                                ▼
-                            </span>
-                        </div>
-                        {ativo === index && (
-                            <div className='accordion-content'>
-                                {item.resposta}
-                            </div>
-                        )}
-                    </div>
-                ))}
+        <div className="space-y-4">
+          {duvidas.map((item, index) => (
+            <div 
+              key={index}
+              className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl border border-gray-700 overflow-hidden hover:border-orange-500 transition-all duration-300"
+            >
+              <button
+                onClick={() => setAtivo(ativo === index ? null : index)}
+                className="w-full px-6 py-5 flex justify-between items-center text-left"
+              >
+                <span className="text-white font-bold text-lg pr-4">{item.titulo}</span>
+                <span className={`text-orange-500 text-2xl transition-transform duration-300 ${ativo === index ? 'rotate-180' : ''}`}>
+                  ▼
+                </span>
+              </button>
+              
+              <div className={`overflow-hidden transition-all duration-300 ${ativo === index ? 'max-h-96' : 'max-h-0'}`}>
+                <div className="px-6 pb-5 text-gray-300 leading-relaxed">
+                  {item.resposta}
+                </div>
+              </div>
             </div>
+          ))}
         </div>
-    )
+      </div>
+    </div>
+  );
 };
 
 export default Duvidas;
