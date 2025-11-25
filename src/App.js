@@ -19,9 +19,9 @@ function App() {
     <div className="bg-black min-h-screen">
       <Home />
       <SobreMim />
+      <Depoimentos />
       <PlanosGerais />
       <PlanosConsultoria />
-      <Depoimentos />
       <Duvidas />
     </div>
   );

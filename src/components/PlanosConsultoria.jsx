@@ -8,7 +8,8 @@ const PlanosConsultoria = () => {
       desc: "Para quem quer ter a primeira experiência com a sua melhor versão",
       preco: 197,
       gradient: "from-red-600 to-red-700",
-      popular: false
+      popular: false,
+      link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
     },
     {
       titulo: "Mensal",
@@ -16,7 +17,8 @@ const PlanosConsultoria = () => {
       desc: "Para quem quer ter a primeira experiência com a sua melhor versão",
       preco: 397,
       gradient: "from-red-600 via-red-700 to-orange-600",
-      popular: false
+      popular: false,
+        link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
     },
     {
       titulo: "Trimestral",
@@ -25,7 +27,8 @@ const PlanosConsultoria = () => {
       preco: 297,
       descount: 15,
       gradient: "from-red-600 via-orange-500 to-orange-600",
-      popular: false
+      popular: false,
+        link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
     },
     {
       titulo: "Trimestral",
@@ -34,7 +37,8 @@ const PlanosConsultoria = () => {
       preco: 470,
       descount: 20,
       gradient: "from-orange-500 via-red-600 to-red-800",
-      popular: true
+      popular: true,
+        link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
     },
     {
       titulo: "Semestral",
@@ -43,7 +47,8 @@ const PlanosConsultoria = () => {
       preco: 497,
       descount: 50,
       gradient: "from-orange-400 via-orange-500 to-yellow-500",
-      popular: false
+      popular: false,
+        link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
     },
     {
       titulo: "Semestral",
@@ -52,7 +57,8 @@ const PlanosConsultoria = () => {
       preco: 797,
       descount: 57,
       gradient: "from-orange-400 via-orange-600 to-red-700",
-      popular: false
+      popular: false,
+        link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20de%20somente%20treino,%20mensal%20por%20R$%20197,00.",
     }
   ];
 
