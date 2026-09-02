@@ -1,16 +1,16 @@
-import React from "react";
-import Slider from "react-slick";
+// import React from "react";
+// import Slider from "react-slick";
+// import antes1 from "../images/antes1.jpg";
+// import depois1 from "../images/depois1.jpg";  
+// import antes2 from "../images/antes2.jpg";
+// import depois2 from "../images/depois2.jpg";        
+// import antes3 from "../images/antes3.jpg";
+// import depois3 from "../images/depois3.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";  
-import antes1 from "../images/antes1.jpg";
-import depois1 from "../images/depois1.jpg";  
-import antes2 from "../images/antes2.jpg";
-import depois2 from "../images/depois2.jpg";        
-import antes3 from "../images/antes3.jpg";
 import img1 from "../images/antesDepois1.jpg";
 import img2 from "../images/antesDepois2.jpg";
 import img3 from "../images/antesDepois3.jpg";
-import depois3 from "../images/depois3.jpg";
 import { useEffect,useState } from "react";
 const Depoimentos = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -2,10 +2,10 @@
 import './App.css';
 import React from 'react';
 import Home from './components/Home';
-import PlanosIndividuais from './components/PlanosIndividuais';
-import BasePlanos from './components/BasePlanos';
+// import PlanosIndividuais from './components/PlanosIndividuais';
+// import BasePlanos from './components/BasePlanos';
 import Depoimentos from './components/Depoimentos';
-import Depoimentos2 from './components/Depoimentos2';
+// import Depoimentos2 from './components/Depoimentos2';
 import SobreMim from './components/SobreMim';
 import PlanosConsultoria from './components/PlanosConsultoria';
 import PlanosGerais from './components/PlanosGerais';

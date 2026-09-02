@@ -1,8 +1,8 @@
-import React from 'react';
-import alvo from "../icons/alvo.png";
-import ajuste from "../icons/ajuste.png";
-import app from "../icons/app.png";
-import suporte from "../icons/suporte.png";
+// import React from 'react';
+// import alvo from "../icons/alvo.png";
+// import ajuste from "../icons/ajuste.png";
+// import app from "../icons/app.png";
+// import suporte from "../icons/suporte.png";
 
 
 const PlanosGerais = () => {
