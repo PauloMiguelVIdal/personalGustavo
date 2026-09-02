@@ -9,7 +9,7 @@ const PlanosConsultoria = () => {
       preco: 197,
       gradient: "from-red-600 to-red-700",
       popular: false,
-      link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20Mensal%20de%20Somente%20Treino%20por%20R$%20197,00.",
+      link: "https://api.whatsapp.com/send?phone=&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20Mensal%20de%20Somente%20Treino%20por%20R$%20197,00.",
     },
     {
       titulo: "Mensal",
@@ -18,7 +18,7 @@ const PlanosConsultoria = () => {
       preco: 397,
       gradient: "from-red-600 via-red-700 to-orange-600",
       popular: false,
-      link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20Mensal%20de%20Treino%20e%20Dieta%20por%20R$%20397,00.",
+      link: "https://api.whatsapp.com/send?phone=&text=Olá,%20gostaria%20de%20realizar%20o%20pagamento%20do%20plano%20Mensal%20de%20Treino%20e%20Dieta%20por%20R$%20397,00.",
     },
     {
       titulo: "Trimestral",
@@ -28,7 +28,7 @@ const PlanosConsultoria = () => {
       descount: 15,
       gradient: "from-red-600 via-orange-500 to-orange-600",
       popular: false,
-      link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20quero%20fazer%20a%20assinatura%20Trimestral%20de%20Somente%20Treino%20por%20R$%20297,00.",
+      link: "https://api.whatsapp.com/send?phone=&text=Olá,%20quero%20fazer%20a%20assinatura%20Trimestral%20de%20Somente%20Treino%20por%20R$%20297,00.",
     },
     {
       titulo: "Trimestral",
@@ -38,7 +38,7 @@ const PlanosConsultoria = () => {
       descount: 20,
       gradient: "from-orange-500 via-red-600 to-red-800",
       popular: true,
-      link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20quero%20fazer%20a%20assinatura%20Trimestral%20de%20Treino%20e%20Dieta%20por%20R$%20470,00.",
+      link: "https://api.whatsapp.com/send?phone=&text=Olá,%20quero%20fazer%20a%20assinatura%20Trimestral%20de%20Treino%20e%20Dieta%20por%20R$%20470,00.",
     },
     {
       titulo: "Semestral",
@@ -48,7 +48,7 @@ const PlanosConsultoria = () => {
       descount: 50,
       gradient: "from-orange-400 via-orange-500 to-yellow-500",
       popular: false,
-      link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20quero%20fazer%20a%20assinatura%20Semestral%20de%20Somente%20Treino%20por%20R$%20497,00.",
+      link: "https://api.whatsapp.com/send?phone=&text=Olá,%20quero%20fazer%20a%20assinatura%20Semestral%20de%20Somente%20Treino%20por%20R$%20497,00.",
     },
     {
       titulo: "Semestral",
@@ -58,7 +58,7 @@ const PlanosConsultoria = () => {
       descount: 57,
       gradient: "from-orange-400 via-orange-600 to-red-700",
       popular: false,
-      link: "https://api.whatsapp.com/send?phone=5517996296401&text=Olá,%20quero%20fazer%20a%20assinatura%20Semestral%20de%20Treino%20e%20Dieta%20por%20R$%20797,00.",
+      link: "https://api.whatsapp.com/send?phone=&text=Olá,%20quero%20fazer%20a%20assinatura%20Semestral%20de%20Treino%20e%20Dieta%20por%20R$%20797,00.",
     },
   ];
 
